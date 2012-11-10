@@ -23,4 +23,7 @@ Esu = Erg^(1/2) Centimeter^(1/2)
 Statvolt = Erg/Esu
 Gauss = Dyne/Esu
 
+(*manual override of Tesla needed because CGS formulas explicitly include c, but SI does not*)
+Tesla = 10^4 Gauss
+
 EndPackage[]
